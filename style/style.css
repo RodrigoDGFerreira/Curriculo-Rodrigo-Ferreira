@@ -73,9 +73,10 @@ li {
   list-style: circle;
 }
 .data {
-  width: 350px;
+  width: 360px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .opacidade {
   opacity: 0.6;
@@ -86,4 +87,12 @@ footer {
   background-color: #292929;
   color: white;
   text-align: center;
+}
+@media (max-width: 1500px) {
+  .navegacao {
+    width: 300px;
+  }
+  .data {
+    width: 200px;
+  }
 }
